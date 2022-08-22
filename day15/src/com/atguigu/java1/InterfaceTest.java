@@ -4,7 +4,9 @@ package com.atguigu.java1;
  * 接口的使用
  *
  *  1. 接口使用interface来定义
+ *
  *  2. Java中，接口和类时并列的两个结构
+ *
  *  3. 如何定义接口： 定义接口中的成员
  *      3.1 jdk1以前：只能定义全局常量和抽象方法
  *          》全局常量：public static final的，但是书写时，可以省略不写
@@ -20,9 +22,11 @@ package com.atguigu.java1;
  *      如果实现类没有覆盖接口中所有的抽象方法，则此实现类仍然为一个抽象类
  *
  *   6. Java类可以实现多个接口 ---》 弥补了Java单继承性的局限性
+ *      格式：class AA extends BB implements CC, DD, EE
  *
  *
  *    7. 接口和接口之间可以多继承
+ *
  *
  *    8. 接口的具体使用，可以体现多态性
  *

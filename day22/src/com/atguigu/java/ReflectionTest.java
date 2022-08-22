@@ -103,8 +103,19 @@ public class ReflectionTest {
 
     }
 
+
     @Test
     public void test4() {
 
+    }
+
+
+    /**
+     * 创建一个指定类的对象
+     * classPath: 指定类的全名
+     */
+    public Object getInstance(String classPath) throws Exception {
+        Class clazz = Class.forName(classPath);
+        return clazz.newInstance();
     }
 }
