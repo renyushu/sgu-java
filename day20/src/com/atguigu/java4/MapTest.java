@@ -5,8 +5,9 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- *
+ * map存储具有映射关系的key-value
  */
+
 public class MapTest {
     @Test
     public void test1() {
@@ -16,6 +17,13 @@ public class MapTest {
 
         System.out.println(map);
 
+    }
+
+    @Test
+    public void test11() {
+        Map<String, String> map = new HashMap();
+        map.put("name", "rick");
+        System.out.println(map);
     }
 
     @Test

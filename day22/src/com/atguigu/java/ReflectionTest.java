@@ -118,4 +118,10 @@ public class ReflectionTest {
         Class clazz = Class.forName(classPath);
         return clazz.newInstance();
     }
+
+    @Test
+    public void test5() {
+        Class c1 = Object.class; // 获取Class类的实例
+        System.out.println(c1);
+    }
 }

@@ -4,7 +4,7 @@ package com.atguigu.java1;
  * 接口的使用
  *  1.体现多态性
  *  2.接口是一种规范
- *  3. 开发中，体会面向接口编程
+ *  3.开发中，体会面向接口编程
  */
 public class USBTest {
     public static void main(String[] args) {

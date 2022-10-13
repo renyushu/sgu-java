@@ -1,6 +1,6 @@
 package com.atguigu.java;
 
-public class Person {
+public class Person extends Object{
     private String name;
     public int age;
 
